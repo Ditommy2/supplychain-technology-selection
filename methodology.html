@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Methodology</title>
+        <link rel="stylesheet" href="style/methodology.css">
+    </head>
+
+    <body>
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <input class="back" type="button" id="back" value="&#8592;">
+                <h2 id="question">Question text</h2>
+                <ul>
+                    <li>
+                        <input type="radio" id="a" name="answer" class="answer" />
+                        <label id="a_text" for="a">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="b" name="answer" class="answer" />
+                        <label id="b_text" for="b">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="c" name="answer" class="answer" />
+                        <label id="c_text" for="c">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="d" name="answer" class="answer" />
+                        <label id="d_text" for="d">Question</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="e" value="Collection" name="phase" class="phase"/>
+                        <label id="e_text" for="e"> Collection </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="f" value="Processing" name="phase" class="phase"/>
+                        <label id="f_text" for="f"> Processing </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="g" value="Transportation" name="phase" class="phase"/>
+                        <label id="g_text" for="g"> Transportation </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="h" value="Packaging" name="phase" class="phase"/>
+                        <label id="h_text" for="h"> Packaging </label>
+                    </li>
+                    <button type="button" id="add" value="Add">Add</button>
+                    <div id="textbox"></div>
+                </ul>
+                <h4>Guide</h4>
+                <span id="guide"></span>
+            </div>
+            <button id="submit">Submit</button>
+            
+        </div>
+        <script src="script/methodology.js"> </script>
+    </body>
+
+</html>

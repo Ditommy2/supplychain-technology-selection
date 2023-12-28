@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700&amp;display=swap'><link rel="stylesheet" href="style/dashboard.css">
+</head>
+
+<body>
+
+  <div class="grid-container">
+
+  <div class="item2">
+
+    <button class="button-36" id="cost">Cost</button>
+
+
+    <button class="button-36" id="submit">GO!</button>
+
+
+  <section class="slidecontainer">
+    <div class ="slider_item">
+      <p class="slider_title">Data Immutability</p>
+      <input class="param" type="range" id="immutability" min="0" max="100" value="50" step="50">
+      <p class="slider_range">Low Med High</p>
+    </div>
+    <div class ="slider_item">
+      <p class="slider_title">Data Transparency</p>
+      <input class="param" type="range" id="transparency" min="0" max="100" value="50" step="50">
+      <p class="slider_range">Low Med High</p>
+    </div>
+    <div class ="slider_item">
+      <p class="slider_title">Data Reliability</p>
+      <input class="param" type="range" id="reliability" min="0" max="100" value="50" step="50">
+      <p class="slider_range">Low Med High</p>
+    </div>
+    <div class ="slider_item">
+      <p class="slider_title">Data Trustability</p>
+      <input class="param" type="range" id="trustability" min="0" max="100" value="50" step="50">
+      <p class="slider_range">Low Med High</p>
+    </div>
+    <div class ="slider_item">
+      <p class="slider_title">Data Security</p>
+      <input class="param" type="range" id="security" min="0" max="100" value="50" step="50">
+      <p class="slider_range">Low Med High</p>
+    </div>
+    <div class ="slider_item">
+      <p class="slider_title">System Resilience</p>
+      <input class="param" type="range" id="resilience" min="0" max="100" value="50" step="50">
+      <p class="slider_range">Low Med High</p>
+    </div>
+    <div class ="slider_item">
+      <p class="slider_title">Data Verifiability</p>
+      <input class="param" type="range" id="verifiability" min="0" max="100" value="50" step="50">
+      <p class="slider_range">Low Med High</p>
+    </div>
+    <div class ="slider_item">
+      <p class="slider_title">Actors Interaction</p>
+      <input class="param" type="range" id="interaction" min="0" max="100" value="50" step="50">
+      <p class="slider_range">Low Med High</p>
+    </div>
+    <div class ="slider_item">
+      <p class="slider_title">Energy Consumption</p>
+      <input class="param" type="range" id="energy" min="0" max="100" value="100" step="50">
+      <p class="slider_range">Low Med High</p>
+    </div>
+    <div class ="slider_item">
+      <p class="slider_title">Scalability</p>
+      <input class="param" type="range" id="scalability" min="0" max="100" value="50" step="50">
+      <p class="slider_range_two_options">Users Transactions</p>
+    </div>
+  </section>
+
+</div>
+
+<div class="item4">
+  <h1>Guide</h1>
+  <ul class="guide">
+    <li><b>Data Immutability</b>: it refers to the ability or inability to change or modify data once it has been created. In a system with high data immutability, once data is recorded, it cannot be altered or deleted. On the other hand, in a system with low data immutability, data can be changed or deleted more freely. </li>
+    <li><b>Data Transparency</b>: it refers to the degree to which information is easily accessible and understandable to users. In a system with high data transparency, data is presented in a clear and comprehensible manner, making it easy for users to interpret and analyze. Conversely, in a system with low data transparency, information may be more obscure or difficult to comprehend.</li>
+    <li><b>Data Reliability</b>: it refers to the accuracy, consistency, and dependability of data. In a system with high data reliability, the information is trustworthy, consistent, and can be counted on for accuracy. On the contrary, in a system with low data reliability, there may be inconsistencies, errors, or doubts about the accuracy of the data.</li>
+    <li><b>Data Trustability</b>: it refers to the level of confidence and trust users can place in the data they are working with. In a system with high data trustability, users can rely on the data to be accurate, secure, and handled responsibly. Conversely, in a system with low data trustability, there may be concerns about the accuracy, security, or ethical use of the data.</li>
+    <li><b>Data Security</b>: it refers to the measures in place to protect data from unauthorized access, disclosure, alteration, or destruction. In a system with high data security, robust safeguards are implemented to ensure that sensitive information is well-protected. Conversely, in a system with low data security, there may be vulnerabilities that expose data to risks such as hacking, data breaches, or unauthorized use.</li>
+    <li><b>System Resilience</b>: it refers to the ability of a system to withstand and recover from disruptions or failures, ensuring continuity and minimal impact on operations. In a system with high resilience, mechanisms are in place to handle and bounce back from challenges, such as hardware failures, network issues, or other unforeseen events. In a system with low resilience, there may be a higher susceptibility to disruptions, potentially leading to downtime or data loss.</li>
+    <li><b>Data Verifiability</b>: it refers to the capability to confirm the accuracy and reliability of data through verification processes. In a system with high data verifiability, there are mechanisms in place to ensure that the data is accurate, valid, and can be independently verified. In a system with low data verifiability, there may be challenges in confirming the correctness of the information, potentially leading to errors or misinformation.</li>
+    <li><b>Actors Interaction</b>: it refers to the speed, accuracy, and effectiveness with which different components, modules, or entities within a system exchange information. In a system with high efficiency in communication, data flows seamlessly, and interactions among different parts of the system are rapid and reliable. In a system with low efficiency in communication, there may be delays, bottlenecks, or errors that hinder the smooth exchange of information.</li>
+    <li><b>Energy Consumption</b>: it refers to the amount of electrical power or resources used by a system to perform its functions. In a system with high energy efficiency, the utilization of resources is optimized, resulting in lower energy consumption. In a system with low energy efficiency, there may be inefficiencies that lead to higher energy usage, potentially contributing to increased operational costs and environmental impact.</li>
+    <li><b>Scalability</b>: user scalability is like making sure a venue, such as a concert hall, can comfortably accommodate a growing number of attendees without causing discomfort. In the digital world, it means ensuring that an online service or application can handle a larger and larger crowd of users without slowing down or becoming difficult to use. Transaction scalability is similar to making sure a cashier can efficiently process a growing number of customers at a store without causing long lines. In the digital realm, it's about ensuring that a system can handle an increasing number of transactions, such as purchases or data exchanges, without slowing down or encountering issues. </li>
+    <li><b>Who can see the transaction between A and B?</b>: when a data is recorded in the system between A and B, who can see this transaction? Suppose we have a supply chain consisting of people A, B, C, D, E. Operator A collects the raw product and delivers it to B and a transaction is recorded in the system between A and B because there has been a change of ownership of the product. Who can see this transaction? Only users A and B who made it; A and B who made it and also C; A and B and also the rest of the users in the system, so also C, D, E; anyone, even those outside the system.</li>
+    <li><b>Data are collected and recorded</b>: 
+    <div>Structured data is like organizing information in a neat and labeled filing cabinet. It is data that is well-organized, follows a clear format, and is easy to search and analyze. Think of it as a well-arranged spreadsheet or database where each piece of information has its designated place. Consider a spreadsheet of customer information in a store. Each column neatly contains specific details such as names, addresses, and purchase amounts. This structured data allows for easy sorting and analysis, similar to finding information in a well-organized filing system. </div>
+    <p>Unstructured data, on the other hand, is like dealing with a pile of documents scattered across a desk. It is information that doesn't have a predefined format, making it more challenging to organize and analyze. This type of data is often text-heavy and lacks a consistent structure. Time-stamped data is like adding a timestamp to every note in your diary. It means attaching a specific time and date to each piece of information, creating a chronological order. This type of data is beneficial when tracking events, changes, or updates over time. Think of a collection of emails, social media posts, or customer reviews. Each piece of information might have different formats, varying lengths, and include text, images, or even videos. Managing and extracting insights from this unstructured data can be more akin to sorting through a messy desk to find what you need. </p> 
+    <p>Time-stamped data is like adding a timestamp to every note in your diary. It means attaching a specific time and date to each piece of information, creating a chronological order. This type of data is beneficial when tracking events, changes, or updates over time. Think of a weather log that records temperature readings every hour. Each entry has a timestamp, indicating exactly when the temperature was measured. This time-stamped data allows you to see how the temperature changes throughout the day. </p></li>
+  
+  
+  </ul>
+</div>
+
+<div class="item3">
+  <section class=" question_container">
+  <div class = "radio_check">
+    <p>Who can see the transaction between A and B?</p>
+    <li>
+      <input type="radio" id="a" name="answer" class="answer" />
+      <label id="a_text" for="a">Only A and B</label>
+    </li>
+    <li>
+      <input type="radio" id="b" name="answer" class="answer" />
+      <label id="b_text" for="b">A, B and only someone else in the network</label>
+     </li>
+    <li>
+      <input type="radio" id="c" name="answer" class="answer" />
+      <label id="c_text" for="c">All in the network</label>
+    </li>
+    <li>
+      <input type="radio" id="d" name="answer" class="answer" />
+      <label id="d_text" for="d">Anyone</label>
+    </li>
+</div>
+
+<div class = "radio_check">
+  <p>What is the reason for tracing?</p>
+  <li>
+    <input type="checkbox" id="e" value="storytelling" name="phase" class="phase"/>
+    <label id="e_text" for="e"> Storytelling of the product </label>
+</li>
+<li>
+    <input type="checkbox" id="f" value="certification" name="phase" class="phase"/>
+    <label id="f_text" for="f"> Certification of the product </label>
+</li>
+<li>
+    <input type="checkbox" id="g" value="alert" name="phase" class="phase"/>
+    <label id="g_text" for="g"> Food alert/contamination </label>
+</li>
+<li>
+    <input type="checkbox" id="h" value="insurance" name="phase" class="phase"/>
+    <label id="h_text" for="h"> Insurance </label>
+</li>
+<li>
+  <input type="checkbox" id="i" value="justice" name="phase" class="phase"/>
+  <label id="i_text" for="i"> Justice for intoxication/adulteration </label>
+</li>
+<li>
+  <input type="checkbox" id="l" value="environmental" name="phase" class="phase"/>
+  <label id="l_text" for="l"> Environmental sustainability </label>
+</li>
+<li>
+  <input type="checkbox" id="m" value="government" name="phase" class="phase"/>
+  <label id="m_text" for="m"> Government controls </label>
+</li>
+</div>
+<div class = "radio_check">
+  <p>Data are collected and recorded:</p>
+  <li>
+    <input type="radio" id="n" name="db" class="db" />
+    <label id="n_text" for="n">Based on timestamps</label>
+  </li>
+  <li>
+    <input type="radio" id="o" name="db" class="db" />
+    <label id="o_text" for="o">Based on a structure</label>
+   </li>
+  <li>
+    <input type="radio" id="p" name="db" class="db" />
+    <label id="p_text" for="p">Without a structure</label>
+  </li>
+</div>
+
+</section>
+</div>
+
+
+  <div class="item1">
+
+  <section class="leaderboard">
+
+    <header>
+      <h1 class="leaderboard__title"><span class="leaderboard__title--top">Technlogies</span><span class="leaderboard__title--bottom"></span></h1>
+    </header>
+
+    <main class="leaderboard__profiles">
+
+      <article class="leaderboard__profile">
+        <img src="images/algo.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless">Algorand ~ $0.144177</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+      
+      <article class="leaderboard__profile">
+        <img src="images/avax.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-PublicPermissioned-PrivatePermissioned-Energy">Avalanche ~ $21.98
+        </span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/cardano.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-Energy">Cardano ~ $0.389197</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/corda.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PrivatePermissioned">Corda ~ $0</span> 
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/bnb.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless">Binance Smart Chain ~ $227.30</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/bitcoin.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless">Bitcoin ~ $38,756.54</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/eos.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-PublicPermissioned-PrivatePermissioned">EOSIO ~ $0.693558</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/eth.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-Energy">Ethereum ~ $2,099.66</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/flow.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless">Flow ~ $0.681876</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/hedera.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-Energy">Hedera Hashgraph ~ $0.061697</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/BESU.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-PublicPermissioned-PrivatePermissioned">Hyperledger Besu ~ $0</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/fabric.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissioned-PrivatePermissioned">Hyperledger Fabric ~ $0</span> 
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+    
+      <article class="leaderboard__profile">
+        <img src="images/sawtooth.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissioned">Hyperledger Sawtooth ~ $0</span> 
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/influx.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="DB-TimeSeries">InfluxDB ~ $0</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/iota.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-Energy">IOTA ~ $0.272089</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/klay.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless">Klatyn ~ $0.190499</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/mysql.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="DB-Relational">MySQL ~ $0</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/mongo.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="DB-NoSQL">MongoDB ~ $0</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/neo.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless">NEO ~ $11.32</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/polygon.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless">Polygon ~ $0.808497</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+      
+      <article class="leaderboard__profile">
+        <img src="images/quorum.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissioned-PrivatePermissioned">Quorum ~ $0</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/solana.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-Energy">Solana ~ $62.06</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/stellar.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-Energy">Stellar ~ $0.119809</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/tezos.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-Energy">Tezos ~ $0.853330</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+      <article class="leaderboard__profile">
+        <img src="images/tron.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless">Tron ~ $0.102876</span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+      
+      <article class="leaderboard__profile">
+        <img src="images/xdc.png" class="leaderboard__picture">
+        <span class="leaderboard__name" value="BK-PublicPermissionless-PublicPermissioned">XDC Network ~ $0.048348 </span>
+        <span class="leaderboard__value" value="0">0</span>
+      </article>
+
+    </main>
+
+  </section>
+
+</div>
+</div>
+</body>
+
+<script  src="script/dashboard.js"></script>
+
+
+</html>
